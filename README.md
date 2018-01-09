@@ -1,2 +1,1 @@
-# DCI-Quads-Animation
-DCI Quads Animation
+# dci-quads-animation

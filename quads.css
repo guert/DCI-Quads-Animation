@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color:#336699;
+  font-family: "Asap", sans-serif;
+  color:#989898;
+  margin:0 10px;
+  font-size:16px;
+}
+
+h1, h2, h3 {
+  font-family: "Signika Negative", sans-serif;
+  margin: 10px 0 10px 0;
+  color:#f3f2ef;
+}
+
+h1 { 
+  font-size:36px;
+}
+
+h2 {
+  font-size:30px;
+}
+
+h3 {
+  font-size:24px;
+}
+
+p{
+  line-height:22px;
+  margin-bottom:16px;
+  width:650px;
+}
+
+#flipping-quads {
+  height:100%;
+  position:relative;
+}
+.colors {float:right;position:relative;}
+
+.color-box {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  z-index:2
+}
+
+.blue-box {
+  background: #336699;
+}
+
+.green-box {
+  background: #24802c;
+}
+
+.red-box {
+  background: #8e1b20;
+}
+
+.black-box {
+  background: #000000;
+}
+.quads-logo {
+  visibility:hidden;
+  display:none;
+  background-image: url("http://www.guert.com/img/dci-quads-logo.png");
+  width:200px;
+  height:200px;
+  position:absolute;
+  border-radius:1px;
+  margin-top:4px;
+  display:inline-block
+}
+.now-playing {
+  visibility:hidden;
+  display:none;
+  color:#fff;
+  font-size:10px;
+  position:absolute;
+  border-radius:1px;
+  margin-top:4px;
+  display:inline-block
+}
+.box {
+  width:200px;
+  height:200px;
+  position:relative;
+  border-radius:6px;
+  margin-top:4px;
+  display:inline-block
+}
+
+.tenor1{
+  background-image: url("http://www.guert.com/img/dci-quads-logo.png");
+}
+.tenor2 {
+  background-image: url("http://www.guert.com/img/dci-quads-logo.png");
+}
+.tenor3 {
+  background-image: url("http://www.guert.com/img/dci-quads-logo.png");
+}
+.tenor4 {
+  background-image: url("http://www.guert.com/img/dci-quads-logo.png");
+}
+
+
